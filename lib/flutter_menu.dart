@@ -1,4 +1,4 @@
-library flutter_menu;
+library menu_top_flutter;
 
 export 'package:menu_top_flutter/src/appscreen.dart';
 export 'package:menu_top_flutter/src/appscreen_model.dart';
