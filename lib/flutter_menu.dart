@@ -1,7 +1,7 @@
 library flutter_menu;
 
-export 'package:flutter_menu/src/appscreen.dart';
-export 'package:flutter_menu/src/appscreen_model.dart';
-export 'package:flutter_menu/src/menu_model.dart';
-export 'package:flutter_menu/src/contextmenu.dart';
-export 'package:flutter_menu/src/contextmenu_widgets.dart';
+export 'package:menu_top_flutter/src/appscreen.dart';
+export 'package:menu_top_flutter/src/appscreen_model.dart';
+export 'package:menu_top_flutter/src/menu_model.dart';
+export 'package:menu_top_flutter/src/contextmenu.dart';
+export 'package:menu_top_flutter/src/contextmenu_widgets.dart';
