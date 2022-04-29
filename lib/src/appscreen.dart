@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 
-import 'package:flutter_menu/flutter_menu.dart';
+import 'package:menu_top_flutter/flutter_menu.dart';
 
 import 'menu_model.dart';
 
