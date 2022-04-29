@@ -1031,7 +1031,7 @@ class AppScreenState extends State<AppScreen> {
   double _getDrawerMenuBarSize() {
     return widget.drawer.largeDrawerWidth < 80
         ? widget.drawer.largeDrawerWidth
-        : 200;
+        : 250;
   }
 
   Widget _drawerButton() {
