@@ -1163,15 +1163,15 @@ class AppScreenState extends State<AppScreen> {
                   : null,
               child: Row(
                 children: [
-                  if (listItem.icon != null)
-                    Align(
-                        alignment: Alignment.centerLeft,
-                        child: SizedBox(
-                            width: 20,
-                            child: Icon(listItem.icon,
-                                size: _touchMode ? 16 : 12,
-                                color: Colors.white))),
-                  if (listItem.icon == null) SizedBox(width: 20),
+                  // if (listItem.icon != null)
+                  //   Align(
+                  //       alignment: Alignment.centerLeft,
+                  //       child: SizedBox(
+                  //           width: 20,
+                  //           child: Icon(listItem.icon,
+                  //               size: _touchMode ? 16 : 12,
+                  //               color: Colors.white))),
+                  // if (listItem.icon == null) SizedBox(width: 10),
                   Padding(
                     padding: const EdgeInsets.only(left: 6.0),
                     child: Text(listItem.title,
