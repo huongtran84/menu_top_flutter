@@ -1227,7 +1227,7 @@ class AppScreenState extends State<AppScreen> {
               openMenu(); // Calls setState
             },
             child: SizedBox(
-                width: 150,
+                width: 120,
                 child: Center(
                     child: Text(widget.menuList[i].title,
                         style: TextStyle(
