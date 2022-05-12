@@ -1,12 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 
 import 'package:menu_top_flutter/flutter_menu.dart';
 
-import 'menu_model.dart';
+import 'menu_model.dart' as menu_model;
 
 extension BuildContextMenuFinder on BuildContext {
   AppScreenState get appScreen => AppScreen.of(this);
@@ -16,7 +15,7 @@ typedef MenuBuilderCallback = Widget Function();
 
 /// Menu shows an menu, enables keyboard shortcuts to MenuItems and give master/detail panes
 class AppScreen extends StatefulWidget {
-  final List<MenuItem> menuList;
+  final List<menu_model.MenuItem> menuList;
   final Builder masterPane;
 
   final Builder? detailPane;
